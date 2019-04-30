@@ -10,9 +10,9 @@ collections:
   team:
     output: true
     permalink: /team/:path/
-  testimonials:
+  clients:
     output: true
-    permalink: /testimonials/:path/
+    permalink: /clients/:path/
 
 defaults:
   - scope:
