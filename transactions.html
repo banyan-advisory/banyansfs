@@ -1,0 +1,146 @@
+---
+title: Transactions
+layout: default
+bodyClass: page-testimonials-list
+---
+
+<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-4">Technology transactions</h2>
+    </div>
+    <div class="col-12">
+      <h4 class="title-4 text-dark mb-5">Recent transactions</h4>
+    </div>
+    {% for feature in site.data.tech_transactions %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {% if feature.image1 %}<div class="feature-image"><img alt="{{ feature.client1 }}"
+            src="{{ feature.image1 }}" /></div> 
+            {% elsif feature.client1 %} <h2 class="feature-title">{{ feature.client1 }}</h2>
+            {% endif %}
+        {% if feature.image2 %}<div class="feature-image"><img alt="{{ feature.client2 }}" src="{{ feature.image2 }}" />
+        </div>
+        {% elsif feature.client2 %} <h2 class="feature-title">{{ feature.client2 }}</h2> {% endif %}
+        <div><h4 class="feature-content">{{ feature.service }}</h4></div>
+        {% if feature.description %}<div class="feature-content">{{ feature.description }}</div>{% endif %}
+        {% if feature.role %}<div><h5 class="feature-content">{{ feature.role }}</h5></div> {% endif %}
+        {% if feature.date %}<div><h5 class="feature-content">{{ feature.date }}</h5></div> {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12">
+      <h4 class="title-4 text-dark mb-5">Promoter transactions</h4>
+    </div>
+    {% for feature in site.data.promoter_tech_transactions %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {% if feature.image1 %}<div class="feature-image"><img alt="{{ feature.client1 }}"
+            src="{{ feature.image1 }}" /></div>
+        {% elsif feature.client1 %} <h2 class="feature-title">{{ feature.client1 }}</h2>
+        {% endif %}
+        {% if feature.image2 %}<div class="feature-image"><img alt="{{ feature.client2 }}"
+            src="{{ feature.image2 }}" />
+        </div>
+        {% elsif feature.client2 %} <h2 class="feature-title">{{ feature.client2 }}</h2> {% endif %}
+        <div>
+          <h4 class="feature-content">{{ feature.service }}</h4>
+        </div>
+        {% if feature.description %}<div class="feature-content">{{ feature.description }}</div>{% endif %}
+        {% if feature.role %}<div><h5 class="feature-content">{{ feature.role }}</h5></div> {% endif %}
+        {% if feature.date %}<div><h5 class="feature-content">{{ feature.date }}</h5></div> {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-4">Healthcare and Lifesciences transactions</h2>
+    </div>
+    <div class="col-12">
+      <h4 class="title-4 text-dark mb-5">Recent transactions</h4>
+    </div>
+    {% for feature in site.data.healthcare_transactions %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {% if feature.image1 %}<div class="feature-image"><img alt="{{ feature.client1 }}" src="{{ feature.image1 }}" />
+        </div>
+        {% elsif feature.client1 %} <h2 class="feature-title">{{ feature.client1 }}</h2>
+        {% endif %}
+        {% if feature.image2 %}<div class="feature-image"><img alt="{{ feature.client2 }}" src="{{ feature.image2 }}" />
+        </div>
+        {% elsif feature.client2 %} <h2 class="feature-title">{{ feature.client2 }}</h2> {% endif %}
+        <div>
+          <h4 class="feature-content">{{ feature.service }}</h4>
+        </div>
+        {% if feature.description %}<div class="feature-content">{{ feature.description }}</div>{% endif %}
+        {% if feature.role %}<div>
+          <h5 class="feature-content">{{ feature.role }}</h5>
+        </div> {% endif %}
+        {% if feature.date %}<div>
+          <h5 class="feature-content">{{ feature.date }}</h5>
+        </div> {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12">
+      <h4 class="title-4 text-dark mb-5">Promoter transactions</h4>
+    </div>
+    {% for feature in site.data.promoter_healthcare_transactions %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {% if feature.image1 %}<div class="feature-image"><img alt="{{ feature.client1 }}" src="{{ feature.image1 }}" />
+        </div>
+        {% elsif feature.client1 %} <h2 class="feature-title">{{ feature.client1 }}</h2>
+        {% endif %}
+        {% if feature.image2 %}<div class="feature-image"><img alt="{{ feature.client2 }}" src="{{ feature.image2 }}" />
+        </div>
+        {% elsif feature.client2 %} <h2 class="feature-title">{{ feature.client2 }}</h2> {% endif %}
+        <div>
+          <h4 class="feature-content">{{ feature.service }}</h4>
+        </div>
+        {% if feature.description %}<div class="feature-content">{{ feature.description }}</div>{% endif %}
+        {% if feature.role %}<div>
+          <h5 class="feature-content">{{ feature.role }}</h5>
+        </div> {% endif %}
+        {% if feature.date %}<div>
+          <h5 class="feature-content">{{ feature.date }}</h5>
+        </div> {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-4">Other transactions</h2>
+    </div>
+    {% for feature in site.data.other_transactions %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {% if feature.image1 %}<div class="feature-image"><img alt="{{ feature.client1 }}" src="{{ feature.image1 }}" />
+        </div>
+        {% elsif feature.client1 %} <h2 class="feature-title">{{ feature.client1 }}</h2>
+        {% endif %}
+        {% if feature.image2 %}<div class="feature-image"><img alt="{{ feature.client2 }}" src="{{ feature.image2 }}" />
+        </div>
+        {% elsif feature.client2 %} <h2 class="feature-title">{{ feature.client2 }}</h2> {% endif %}
+        <div>
+          <h4 class="feature-content">{{ feature.service }}</h4>
+        </div>
+        {% if feature.description %}<div class="feature-content">{{ feature.description }}</div>{% endif %}
+        {% if feature.role %}<div>
+          <h5 class="feature-content">{{ feature.role }}</h5>
+        </div> {% endif %}
+        {% if feature.date %}<div>
+          <h5 class="feature-content">{{ feature.date }}</h5>
+        </div> {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,30 @@
+[
+  {
+    "image1":"drl.png",
+    "client1": "Dr.Reddy's Labs Pvt. Ltd.",
+    "service": "Structured Finance",
+    "description":"Advisory to promoters to give an exit to AMEX"
+  },
+  {
+    "image1": "drl.png",
+    "client1": "Dr.Reddy's Labs Pvt. Ltd.",
+    "service": "Equity Advisory",
+    "description": "Co-managers to rights issue of equity shares"
+  },
+  {
+    "image1": "cheminor.png",
+    "client2": "Cheminor Drugs Ltd.",
+    "service": "IPO",
+    "description": "Lead Managers to IPO of equity shares"
+  },
+  {
+    "client1": "American Remedies Ltd.",
+    "service": "IPO",
+    "description": "Co-managers to IPO of equity shares"
+  },
+  {
+    "client1": "Usta-te Biotech Industries Ltd.",
+    "service": "Capital Advisory",
+    "description": "Co-managers to rights issue of equity shares"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "image1":"infotech.png",
+    "client1": "Infotech ltd.",
+    "client2": "Advanced Graphics Software GmbH",
+    "service": "M&A Advisory",
+    "date":"October 2000"
+  },
+  {
+    "image1": "infotech.png",
+    "client1": "Infotech ltd.",
+    "client2": "VARGIS",
+    "service": "M&A Advisory",
+    "date": "January 2004"
+  },
+  {
+    "image1": "infotech.png",
+    "client1": "Infotech ltd.",
+    "client2": "Tele Atlas India Pvt. Ltd.",
+    "service": "M&A Advisory",
+    "date": "March 2005"
+  },
+  {
+    "image1": "applabs.png",
+    "client1": "AppLabs ltd.",
+    "image2": "sequoa.png",
+    "client2": "Sequoia Capital",
+    "service": "PE Funding",
+    "date": "June 2006"
+  },
+  {
+    "image1": "applabs.png",
+    "client1": "AppLabs ltd.",
+    "client2": "IS Integration",
+    "service": "M&A Advisory",
+    "date": "September 2006"
+  }
+]

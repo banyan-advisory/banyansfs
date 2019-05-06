@@ -1,10 +1,18 @@
 ---
-title: "Mergers & Acquisition"
+title: "Mergers & Acquisition Advisory Services"
 ---
 
-Banyan provides services for both Buy and Sell sides. Banyan has experience performing domestic & cross border transactions. 
+Banyan will provide the necessary guidance to its clients on maximum value creation possible during the process and work as the primary strategic advisor throughout the various stages of the transaction.  
 
-Our M&A services include:
+## Typical M&A transactions go through the following stages:  
+- Business Plan Preparation
+- Internal Valuation Assessment and Discussions
+- External Discussions with Potential Partner
+- Deal Negotiation & Structuring
+- Document Finalization (Advisory Role)
+- Closure
+
+## Our M&A services include:
 - Assistance in evolving M&A strategy
 - Identification of suitable targets
 - Complete due diligence services

@@ -1,0 +1,30 @@
+[
+  {
+    "image1":"anjani.png",
+    "client1": "Anjani Cements Pvt. Ltd.",
+    "image2": "chettinad.png",
+    "client2": "Chettinad Cements Pvt. Ltd.",
+    "service": "M&A Advisory",
+    "description": "Financial advisor to Anjani Cements on the sale of promoters Equity to Chettinad cement",
+    "role": "Co-Lead Advisors",
+    "date":"June 2014"
+  },
+  {
+    "image1": "sresta.png",
+    "client1": "Sresta Ltd.",
+    "service": "Equity Advisory",
+    "description": "Financial Advisor to Sresta on their current round of funding of ₹ 250 Million from existing investors",
+    "role": "Sole Arranger",
+    "date": "May 2014"
+  },
+  {
+    "image1": "kuttys.png",
+    "client1": "Kutty's Flush doors & Furniture Co. Pvt. Ltd.",
+    "image2": "radiance.png",
+    "client2": "Radiance Realty Pvt. Ltd.",
+    "service": "Asset Advisory",
+    "description": "Financial Advisor to Kutty’s flush doors & furniture co pvt. Ltd. On sale of their asset to Radiance Realty ",
+    "role": "Co-Lead Advisors",
+    "date": "2017"
+  }
+]

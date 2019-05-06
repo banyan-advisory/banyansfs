@@ -1,0 +1,32 @@
+[
+  {
+    "image1":"cyient.png",
+    "client1": "Cyient ltd.",
+    "image2":"softential.png",
+    "client2": "Softential ltd",
+    "service": "M&A Advisory",
+    "description": "Financial Advisor to Cyient on their acquisition of Softential headquartered in Herndon, Virginia",
+    "role": "Sole Advisors",
+    "date":"March 2014"
+  },
+  {
+    "image1": "techwave.png",
+    "client1": "Techwave Consulting Inc.",
+    "image2": "cyient.png",
+    "client2": "Cyient ltd.",
+    "service": "M&A Advisory",
+    "description": "Financial Advisor to Techwave Consulting, Inc. on their acquisition of Infotech Enterprises IT Services Pvt (IEITS) , 100% subsidiary of Cyient",
+    "role": "Sole Advisors",
+    "date": "September 2015"
+  },
+  {
+    "image1": "techwave.png",
+    "client1": "Techwave Consulting Inc.",
+    "image2": "moschip.png",
+    "client2": "MosChip Semiconductor ltd.",
+    "service": "M&A Advisory",
+    "description": "Financial Advisor to Techwave Pte Ltd., on their acquisition of majority shares of MosChip Semiconductor Technology Ltd.",
+    "role": "Sole Advisors",
+    "date": "March 2016"
+  }
+]

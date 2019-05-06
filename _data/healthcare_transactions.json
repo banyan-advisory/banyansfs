@@ -1,0 +1,36 @@
+[
+  {
+    "image1":"maxivision.png",
+    "client1": "Maxivision Eye Hospitals Pvt. Ltd.",
+    "client2": "Medfort Hospitals",
+    "service": "M&A Advisory",
+    "description": "Financial Advisor to Maxivision Eye Hospitals Pvt. Ltd. on sale of  100% equity to Medfort Hospitals Pvt. Ltd",
+    "role": "Sole Advisors",
+    "date":"August 2011"
+  },
+  {
+    "image1": "epione.png",
+    "client1": "Techwave Consulting Inc.",
+    "service": "Equity Advisory",
+    "description": "Financial advisor on restructuring of promoters equity",
+    "role": "Sole Advisors",
+    "date": "January 2017"
+  },
+  {
+    "image1": "microlabs.png",
+    "client1": "Micro Labs Ltd.",
+    "image2": "rachem.png",
+    "client2": "RA Chem Pharma Ltd.",
+    "service": "M&A Advisory",
+    "description": "Financial Advisor to RA Chem Pharma Ltd. on sale of  100% equity to Micro Labs Ltd.",
+    "role": "Sole Advisors",
+    "date": "January 2017"
+  },
+  {
+    "client1": "Vision Drugs Pvt. Ltd.",
+    "service": "Equity Advisory",
+    "description": "Financial advisor on restructuring of promoters equity",
+    "role": "Sole Advisors",
+    "date": "January 2017"
+}
+]
